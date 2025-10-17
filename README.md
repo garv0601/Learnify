@@ -1,36 +1,99 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+🚀 AutoCourse — AI-Powered Course Generator
 
-## Getting Started
+AutoCourse is your personal course builder — a full-stack, AI-driven platform that automatically generates entire video-based courses with chapters, topics, and interactive learning modules.
+Built for effortless, structured, and personalized learning.
 
-First, run the development server:
+✨ Features
 
-```bash
+✅ Automatic Course Generation — Enter a topic, and watch it create a full course outline with chapters and lessons.
+🎥 YouTube Integration — Pulls real, relevant videos using the YouTube API.
+⚙️ Smart Backend — Seamlessly stores and manages course data with powerful backend integration.
+🧠 AI Assistance — Uses AI to design the perfect learning flow for any subject.
+📱 Fully Responsive — Smooth experience across all devices.
+🔐 User Authentication — Secured using Clerk.
+🎨 Beautiful UI — Crafted with React, Tailwind CSS, and shadcn/ui components.
+⚡ Fast & Scalable — Built on Next.js for performance and simplicity.
+
+🛠️ Tech Stack
+Category	Technologies
+Frontend	Next.js, React, Tailwind CSS, shadcn/ui
+Backend	Next.js API Routes, Drizzle ORM / PostgreSQL (if used)
+Authentication	Clerk
+APIs	YouTube Data API, OpenAI / custom AI logic
+Tools	Axios, Lucide Icons, Framer Motion
+🧩 Project Overview
+
+AutoCourse transforms a single keyword into a full learning journey.
+It automatically:
+
+Generates structured chapters and lessons.
+
+Fetches educational videos from YouTube.
+
+Displays everything in a modern, responsive interface.
+
+Tracks enrolled courses and progress per user.
+
+It’s like having your own AI course creator working 24/7.
+
+🚀 Getting Started
+1️⃣ Clone the Repo
+git clone https://github.com/<your-username>/autocourse.git
+cd autocourse
+
+2️⃣ Install Dependencies
+npm install
+
+3️⃣ Set Up Environment Variables
+
+Create a .env.local file in the root directory and add:
+
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_key
+CLERK_SECRET_KEY=your_clerk_secret
+YOUTUBE_API_KEY=your_youtube_api_key
+NEXT_PUBLIC_BACKEND_URL=your_backend_url
+
+4️⃣ Run the App
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Now open http://localhost:3000
+ and explore AutoCourse!
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+🎯 Future Enhancements
 
-## Learn More
+🧭 AI Quiz Generator per chapter
 
-To learn more about Next.js, take a look at the following resources:
+💬 Discussion threads for learners
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+📈 Learning analytics dashboard
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+🗂️ Custom course templates
 
-## Deploy on Vercel
+🌍 Multi-language support
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+📸 Sneak Peek (Optional)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Add screenshots or demo GIFs here to make the README visually engaging.
+
+🤝 Contributing
+
+Got ideas to make AutoCourse even better?
+Contributions are welcome! Fork the repo, create a new branch, and submit a pull request.
+
+💡 Inspiration
+
+This project was built to make learning simple, adaptive, and accessible —
+so anyone can learn anything, anytime, with zero setup.
+
+🧑‍💻 Author
+
+Garvit Bansal
+📍 Ajmer, Rajasthan
+🔗 GitHub
+ | LinkedIn
+
+⭐ Show Some Love
+
+If this project inspires you, star the repo and share it.
+It helps more people discover AutoCourse and keeps the motivation alive!
